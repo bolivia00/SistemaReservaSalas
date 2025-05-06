@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Tratar arquivos de texto (como .cs) com as configurações corretas de final de linha
+*.cs text eol=crlf
+
+# Ignorar arquivos binários (como .dll e .exe)
+*.dll binary
+*.exe binary
+
+# Adicionar configurações para outros tipos de arquivo que precisar
