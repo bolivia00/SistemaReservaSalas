@@ -22,11 +22,10 @@ Este é um sistema de console em C# desenvolvido como trabalho prático para a d
 SistemaReservaSalas/
 │
 ├── Modelos/
-│   ├── ConfiguracaoReserva.cs   # Define a configuração válida de datas e horários
-│   └── Reserva.cs               # Representa uma reserva e contém validações
+│   ├── ConfiguracaoReserva.cs     // Classe que define a configuração de datas e horários permitidos
+│   └── Reserva.cs                 // Classe que representa uma reserva com validações
 │
-└── Program.cs                   # Ponto de entrada da aplicação
-
+└── Program.cs                     // Entrada principal da aplicação (interação com o usuário)
 
 ---
 
